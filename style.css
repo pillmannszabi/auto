@@ -1,0 +1,92 @@
+body{
+    background-image: url(5ffc95b61b1472adbbda8c18341378d4.jpg);
+    background-position: center;
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgba(255, 228, 196, 0.527);
+}
+
+h2{
+    text-align: center;
+    border: solid 2px blue;
+    font-style: italic;
+}
+
+h4{
+    text-decoration: underline dotted;
+    font-size: large;
+}
+
+hr{
+    color: black;
+    width: 70%;
+}
+
+.bevezeto{
+    width: 1000px;
+    height: 400px;
+    background-color: whitesmoke;
+    box-shadow: 3px 3px 5px;
+}
+
+.hang{
+    float: right;
+    border-top: 1px solid black;
+    border-left:  1px solid black ;
+}
+
+.kep_bevezeto{
+    width: 250px;
+    border: 1px blue solid;
+    float: right;
+}
+
+.szoveg_bevezeto{
+    padding-right: 250px;
+    font-size: larger;
+}
+
+
+.szoveg_csoportositas{
+    font-size: larger;
+}
+
+.auto_csoportositas{
+    background-color: whitesmoke;
+    height: 500px;
+    width: 1000px;
+    box-shadow: 5px 5px 5px;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+
+.felsorolas{
+    list-style: square;
+    font-weight: bold;
+}
+
+.belso_felsorolas{
+    list-style: disc; 
+    font-weight: normal;
+}
+
+.osszehasonlitas{
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 5px ;
+    width: 500px;
+    margin: auto;
+}
+
+table{
+    border-color: rgb(0, 0, 102);
+    padding: 10px;
+    margin: auto;
+}
+
+td, th{
+    width: 100px;
+    height: 50px;
+}
