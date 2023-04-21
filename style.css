@@ -6,13 +6,45 @@ body{
 h1{
     text-transform: uppercase;
     text-align: center;
-    background-color: rgba(255, 228, 196, 0.527);
+    background-color: antiquewhite;
 }
 
 h2{
     text-align: center;
     border: solid 2px blue;
     font-style: italic;
+}
+
+.menu{
+    background-color: antiquewhite;
+    font-size: large;
+    list-style: none;
+    display: flex;
+}
+
+.menuresz{
+    display: block;
+    padding-right: 70px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 70px;
+    margin: auto;
+}
+
+a{
+    font-size: medium;
+    color: black;
+    text-transform: uppercase;
+}
+
+a:hover{
+    font-size: large;
+    font-weight: bold;
+}
+
+.menu_cim{
+    text-decoration: underline;
+    margin: auto;
 }
 
 h4{
